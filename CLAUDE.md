@@ -92,6 +92,22 @@ Bundle size budgets (production):
 - Initial bundle: 500kB warning, 1MB error
 - Component styles: 4kB warning, 8kB error
 
+## Deployment
+
+### Firebase Hosting
+
+**Build for production:**
+```bash
+ng build
+```
+
+**Deploy to Firebase:**
+```bash
+firebase deploy
+```
+
+**Important:** The `firebase.json` is configured to deploy from `dist/angular-tailwind-template/browser` which is the output directory for Angular's application builder. Do not change this path unless the project name changes.
+
 ## Prettier Configuration
 
 Configured in `package.json`:
