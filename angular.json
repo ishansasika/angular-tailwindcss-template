@@ -57,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-tailwind-template:build:production"
+              "buildTarget": "angular-tailwindcss-template:build:production"
             },
             "development": {
-              "buildTarget": "angular-tailwind-template:build:development"
+              "buildTarget": "angular-tailwindcss-template:build:development"
             }
           },
           "defaultConfiguration": "development"
