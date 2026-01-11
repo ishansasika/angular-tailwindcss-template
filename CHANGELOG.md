@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2025-01-11
+
+### Added
+- **Lucide Angular**: Modern icon library with 1000+ icons
+- **NGX Sonner**: Beautiful toast notifications for Angular
+- **Enhanced UI Components**:
+  - Button component with variants (primary, secondary, outline, ghost, danger) and loading states
+  - Card components (Card, CardHeader, CardContent, CardFooter)
+  - Badge component with color variants (default, primary, success, warning, danger, info)
+- **404 Not Found Page**: Animated error page with navigation options and Lucide icons
+- **Toast Notifications**: Global toast system using ngx-sonner
+- **Environment Variables**: .env.example with common configuration options
+
+### Changed
+- Updated routing to use NotFound component instead of redirect for 404s
+- Enhanced app root with toast notifications
+- Improved user experience with CSS animations
+
+### Developer Experience
+- All UI components as standalone Angular components
+- Reusable component library ready for expansion
+- Toast notifications system integrated in root component
+
 ## [1.0.0] - 2025-01-11
 
 ### Added
